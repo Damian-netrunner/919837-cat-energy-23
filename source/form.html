@@ -35,39 +35,54 @@
 
   <main class="content">
     <div class="container">
-      <h1>Подбор программы </h1>
-      <p>Заполните анкету, и мы подберем программу питания для вашего кота</p>
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <label for="name-field">Имя:*<input id="name-field" type="text" name="name-field" value="Барсик"></label>
-        <label for="weight-field">Вес (кг):*<input id="weight-field" type="text" name="age-field" value="7"></label>
-        <label for="age-field">Возраст (лет):<input id="age-field" type="text" name="login" value="7"></label>
+      <div class="content__title-block">
+        <h1 class="content__title">Подбор программы </h1>
+      </div>
+
+      <form class="form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="form__block">
+          <div class="form__text-block">
+            <p class="form__lead">Заполните анкету и мы подберем<br>программу питания для вашего кота</p>
+          </div>
+          <div class=form__row>
+            <label for="name-field">Имя:*<input id="name-field" type="text" name="name-field" value="Барсик"></label>
+          </div>
+          <div class=form__row>
+            <label for="weight-field">Вес (кг):*<input id="weight-field" type="text" name="age-field" value="7"></label>
+          </div>
+
+          <div class=form__row> <label for="age-field">Возраст (лет):<input id="age-field" type="text" name="login"
+                value="7"></label>
+          </div>
+        </div>
+
 
         <label for="weight-loss"><input id="weight-loss" type="radio" name="question-one" value="p">Похудение</label>
-        <label for="weight-gain"><input id="weight-gain" type="radio" name="question-one" value="p">Набор массы</label>
+        <label for="weight-gain"><input id="weight-gain" type="radio" name="question-one" value="p">Набор
+          массы</label>
         <label for="need-advise"><input id="need-advise" type="radio" name="question-one" value="p">Не знаю (нужен
           вашсовет)</label>
+    </div>
+    <h2>Контактные данные (владельца кота)</h2>
+    <label for="mail-field">E-mail:*</label><input id="mail-field" type="text" name="login" value="кuklachev@gmail.com">
+    <label for="tel-field">Телефон:*</label><input id="tel-field" type="tel" name="tel" value="8 (960) 900-60-90">
 
-        <h2>Контактные данные (владельца кота)</h2>
-        <label for="mail-field">E-mail:*</label><input id="mail-field" type="text" name="login"
-          value="кuklachev@gmail.com">
-        <label for="tel-field">Телефон:*</label><input id="tel-field" type="tel" name="tel" value="8 (960) 900-60-90">
+    <h2>Комментарий</h2>
+    <textarea rows="10" cols="45" name="text" placeholder="Расскажите обо всех повадках кота"></textarea>
 
-        <h2>Комментарий</h2>
-        <textarea rows="10" cols="45" name="text" placeholder="Расскажите обо всех повАдках кота"></textarea>
+    <h2>Дополнительно</h2>
+    <input type="checkbox" name="subscribe" id="radio-field-one">
+    <label for="radio-field-one">Сахарозаменитель</label>
+    <input type="checkbox" name="subscribe" id="radio-field-two">
+    <label for="radio-field-two">Питьевая вода</label>
+    <input type="checkbox" name="subscribe" id="radio-field-three">
+    <label for="radio-field-three">Молоко</label>
+    <input type="checkbox" name="subscribe" id="radio-field-four">
+    <label for="radio-field-four">витамины</label>
+    <p>* — Обязательные поля</p>
 
-        <h2>Дополнительно</h2>
-        <input type="checkbox" name="subscribe" id="radio-field-one">
-        <label for="radio-field-one">Сахарозаменитель</label>
-        <input type="checkbox" name="subscribe" id="radio-field-two">
-        <label for="radio-field-two">Питьевая вода</label>
-        <input type="checkbox" name="subscribe" id="radio-field-three">
-        <label for="radio-field-three">Молоко</label>
-        <input type="checkbox" name="subscribe" id="radio-field-four">
-        <label for="radio-field-four">витамины</label>
-        <p>* — Обязательные поля</p>
-
-        <input type="submit" value="Отправить заявку">
-      </form>
+    <input type="submit" value="Отправить заявку">
+    </form>
     </div>
   </main>
   <footer class="footer">
