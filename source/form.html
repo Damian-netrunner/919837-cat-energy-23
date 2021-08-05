@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Academy: Кэт энерджи</title>
+</head>
+
+<body class="page__body">
+  <header class="header">
+    <div class="container">
+      <div class="header__logo">
+        <a class="header__logo-icon" href="#">
+          <img src="img/logo.svg" width="33" height="38" alt="Кэт энерджи">
+        </a>
+        <a class="header__logo-name" href="#">
+          <img src="img/catenergy.svg" width="101" height="18" alt="Кэт энерджи">
+        </a>
+        <a class="header__menu" href="#">
+          <img src="img/menu_logo.svg" width="24" height="16" alt="Меню">
+        </a>
+      </div>
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__item"><a class="header-nav__link" href="index.html">Главная</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="catalog.html">Каталог продукции</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="form.html">Подбор программы</a></li>
+        </ul>
+      </nav>
+      <h1>Функциональное питание для котов</h1>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="container">
+      <h1>Подбор программы </h1>
+      <p>Заполните анкету, и мы подберем программу питания для вашего кота</p>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <label for="name-field">Имя:*<input id="name-field" type="text" name="name-field" value="Барсик"></label>
+        <label for="weight-field">Вес (кг):*<input id="weight-field" type="text" name="age-field" value="7"></label>
+        <label for="age-field">Возраст (лет):<input id="age-field" type="text" name="login" value="7"></label>
+
+        <label for="weight-loss"><input id="weight-loss" type="radio" name="question-one" value="p">Похудение</label>
+        <label for="weight-gain"><input id="weight-gain" type="radio" name="question-one" value="p">Набор массы</label>
+        <label for="need-advise"><input id="need-advise" type="radio" name="question-one" value="p">Не знаю (нужен
+          вашсовет)</label>
+
+        <h2>Контактные данные (владельца кота)</h2>
+        <label for="mail-field">E-mail:*</label><input id="mail-field" type="text" name="login"
+          value="кuklachev@gmail.com">
+        <label for="tel-field">Телефон:*</label><input id="tel-field" type="tel" name="tel" value="8 (960) 900-60-90">
+
+        <h2>Комментарий</h2>
+        <textarea rows="10" cols="45" name="text" placeholder="Расскажите обо всех повАдках кота"></textarea>
+
+        <h2>Дополнительно</h2>
+        <input type="checkbox" name="subscribe" id="radio-field-one">
+        <label for="radio-field-one">Сахарозаменитель</label>
+        <input type="checkbox" name="subscribe" id="radio-field-two">
+        <label for="radio-field-two">Питьевая вода</label>
+        <input type="checkbox" name="subscribe" id="radio-field-three">
+        <label for="radio-field-three">Молоко</label>
+        <input type="checkbox" name="subscribe" id="radio-field-four">
+        <label for="radio-field-four">витамины</label>
+        <p>* — Обязательные поля</p>
+
+        <input type="submit" value="Отправить заявку">
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo-wrapper">
+        <img class="footer__brand-logo" src="img/catenergy.svg" width="128" height="24" alt="Кэт энерджи">
+      </div>
+
+      <div class="footer__social">
+        <ul class="footer__social-list">
+          <li class="footer__social-item"><a href="#"><img src="img/icon_vkontakte.svg" alt="Vkontakte"></a></li>
+          <li class="footer__social-item"><a href="#"><img src="img/icon_instagram.svg" alt="Instagram"></a></li>
+          <li class="footer__social-item"><a href="#"><img src="img/icon_facebook.svg" alt="Facebook"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer__academy">
+        <p class="footer__academy-name">HTML Academy</p>
+        <img class="footer__academy-logo" src="img/htmlacademy.svg" width="27" height="34" alt="Кэт энерджи">
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
