@@ -50,38 +50,69 @@
           <div class=form__row>
             <label for="weight-field">Вес (кг):*<input id="weight-field" type="text" name="age-field" value="7"></label>
           </div>
-
           <div class=form__row> <label for="age-field">Возраст (лет):<input id="age-field" type="text" name="login"
                 value="7"></label>
           </div>
         </div>
 
-
-        <label for="weight-loss"><input id="weight-loss" type="radio" name="question-one" value="p">Похудение</label>
-        <label for="weight-gain"><input id="weight-gain" type="radio" name="question-one" value="p">Набор
-          массы</label>
-        <label for="need-advise"><input id="need-advise" type="radio" name="question-one" value="p">Не знаю (нужен
-          вашсовет)</label>
+        <div class="form__block">
+          <div class=form__row>
+            <label for="weight-loss"><input id="weight-loss" type="radio" name="choice-one" value="p">Похудение</label>
+          </div>
+          <div class=form__row>
+            <label for="weight-gain"><input id="weight-gain" type="radio" name="choice-two" value="p">Набор
+              массы</label>
+          </div>
+          <div class=form__row>
+            <label for="need-advise"><input id="need-advise" type="radio" name="choice-three" value="p">Не знаю (нужен
+              ваш совет)</label>
+          </div>
+        </div>
+        <div class="form__block">
+          <div class="form__subtitle">
+            <h2>Контактные данные (владельца кота)</h2>
+          </div>
+          <div class=form__row>
+            <label for="mail-field">E-mail:*</label><input id="mail-field" type="text" name="login"
+              value="кuklachev@gmail.com">
+          </div>
+          <div class=form__row>
+            <label for="tel-field">Телефон:*</label><input id="tel-field" type="tel" name="tel"
+              value="8 (960) 900-60-90">
+          </div>
+        </div>
+    
+    <div class="form__block">
+      <div class="form__subtitle">
+        <h2>Комментарий</h2>
+      </div>
+      <div class="form__text-fields">
+        <textarea rows="10" cols="45" name="text" placeholder="Расскажите обо всех повадках кота"></textarea>
+      </div>
     </div>
-    <h2>Контактные данные (владельца кота)</h2>
-    <label for="mail-field">E-mail:*</label><input id="mail-field" type="text" name="login" value="кuklachev@gmail.com">
-    <label for="tel-field">Телефон:*</label><input id="tel-field" type="tel" name="tel" value="8 (960) 900-60-90">
-
-    <h2>Комментарий</h2>
-    <textarea rows="10" cols="45" name="text" placeholder="Расскажите обо всех повадках кота"></textarea>
-
-    <h2>Дополнительно</h2>
-    <input type="checkbox" name="subscribe" id="radio-field-one">
-    <label for="radio-field-one">Сахарозаменитель</label>
-    <input type="checkbox" name="subscribe" id="radio-field-two">
-    <label for="radio-field-two">Питьевая вода</label>
-    <input type="checkbox" name="subscribe" id="radio-field-three">
-    <label for="radio-field-three">Молоко</label>
-    <input type="checkbox" name="subscribe" id="radio-field-four">
-    <label for="radio-field-four">витамины</label>
-    <p>* — Обязательные поля</p>
-
-    <input type="submit" value="Отправить заявку">
+    <div class="form__block">
+      <div class="form__subtitle">
+        <h2>Дополнительно</h2>
+      </div>
+      <div class="form__checkbox-fields">
+        <input type="checkbox" name="subscribe" id="radio-field-one">
+        <label for="radio-field-one">Сахарозаменитель</label>
+      </div>
+      <div class="form__checkbox-fields">
+        <input type="checkbox" name="subscribe" id="radio-field-two">
+        <label for="radio-field-two">Питьевая вода</label>
+      </div>
+      <div class="form__checkbox-fields">
+        <input type="checkbox" name="subscribe" id="radio-field-three">
+        <label for="radio-field-three">Молоко</label>
+      </div>
+      <div class="form__checkbox-fields">
+        <input type="checkbox" name="subscribe" id="radio-field-four">
+        <label for="radio-field-four">витамины</label>
+      </div>
+      <p>* — Обязательные поля</p>
+      <input type="submit" value="Отправить заявку">
+    </div>
     </form>
     </div>
   </main>
