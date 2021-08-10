@@ -44,32 +44,32 @@
             <p class="form__lead">Заполните анкету и мы подберем<br>программу питания для вашего кота</p>
           </div>
           <div class="form__row">
-            <label for="name-field">Имя:*<input id="name-field" type="text" name="name-field" value="Барсик"></label>
+            <label for="name-field">Имя:*<input id="name-field" type="text" name="name-field" placeholder="Барсик"></label>
           </div>
           <div class="form__row">
-            <label for="weight-field">Вес (кг):*<input id="weight-field" type="text" name="age-field" value="7"></label>
+            <label for="weight-field">Вес (кг):*<input id="weight-field" type="text" name="age-field" placeholder="7"></label>
           </div>
           <div class="form__row"> <label for="age-field">Возраст (лет):<input id="age-field" type="text" name="login"
-                value="7"></label>
+            placeholder="7"></label>
           </div>
         </div>
 
         <div class="form__block">
           <div class="form__row">
-            <label for="weight-loss"><input id="weight-loss" type="radio" name="choice-one" value="p">Похудение</label>
+            <label class="form__label" for="weight-loss">Похудение</label><input class="form__input" id="weight-loss" type="radio" name="choice">
           </div>
           <div class="form__row">
-            <label for="weight-gain"><input id="weight-gain" type="radio" name="choice-two" value="p">Набор
-              массы</label>
+            <label class="form__label" for="weight-gain">Набор
+              массы</label><input class="form__input" id="weight-gain" type="radio" name="choice" >
           </div>
           <div class="form__row">
-            <label for="need-advise"><input id="need-advise" type="radio" name="choice-three" value="p">Не знаю (нужен
-              ваш совет)</label>
+            <label class="form__label" for="need-advise">Не знаю (нужен
+              ваш совет)</label><input class="form__input" id="need-advise" type="radio" name="choice">
           </div>
         </div>
         <div class="form__block">
           <div class="form__subtitle">
-            <h2>Контактные данные (владельца кота)</h2>
+            <h2 class="form__heading">Контактные данные (владельца кота)</h2>
           </div>
           <div class="form__row">
             <label for="mail-field">E-mail:*</label><input id="mail-field" type="text" name="login"
@@ -83,7 +83,7 @@
 
     <div class="form__block">
       <div class="form__subtitle">
-        <h2>Комментарий</h2>
+        <h2 class="form__heading">Комментарий</h2>
       </div>
       <div class="form__text-fields">
         <textarea rows="10" cols="45" name="text" placeholder="Расскажите обо всех повадках кота"></textarea>
@@ -91,7 +91,7 @@
     </div>
     <div class="form__block">
       <div class="form__subtitle">
-        <h2>Дополнительно</h2>
+        <h2 class="form__heading">Дополнительно</h2>
       </div>
       <div class="form__checkbox-fields">
         <input type="checkbox" name="subscribe" id="radio-field-one">
