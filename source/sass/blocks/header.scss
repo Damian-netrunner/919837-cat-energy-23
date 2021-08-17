@@ -1,0 +1,28 @@
+.header {
+
+  .header__logo {
+    background-color: white;
+    text-decoration: none;
+  }
+  .header__logo-icon {
+    text-decoration: none;
+  }
+  .header__logo-name {
+    text-decoration: none;
+  }
+}
+
+.header-nav {
+
+  .header-nav__link {
+  text-decoration: none;
+  color: black; }
+
+  .header-nav__item {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
