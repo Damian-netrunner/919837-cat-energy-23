@@ -1,0 +1,97 @@
+.catalog {
+  .catalog__heading {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: normal;
+  }
+  .catalog__list {
+    list-style: none;
+  }
+  .catalog__title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  }
+  .catalog__item-order {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: $basic_green;
+  }
+  .catalog__description {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .catalog__show-more-text {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  .catalog__show-text-small {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+  }
+  .catalog__show-all-link {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: $basic_grey;
+    color: black;
+  }
+}
+
+.additional-products {
+  .additional-products__heading {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+  .additional-products__list {
+    list-style: none;
+  }
+  .additional-products__title {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  .additional-products__count /*можно ли так перечислять?*/ {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal;
+  }
+  .additional-products__price {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal;
+  }
+  .additional-products__order {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: $basic_green;
+  }
+  .order-all__image {
+    background-color: $basic_green;
+  }
+  .order-all__text {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* color: white; */
+  }
+}
