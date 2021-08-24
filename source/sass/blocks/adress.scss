@@ -2,11 +2,13 @@
     .adress__advertisment{
         font-size: 16px;
         line-height: 20px;
-        text-transform: uppercase;        
+        text-transform: uppercase;     
     }
     .adress__info{
         font-size: 14px;
         line-height: 20px;
-        color: $dark-grey;    
+        color: $dark-grey; 
+        font-weight: normal;
+        font-family: Arial;
     }
 }
